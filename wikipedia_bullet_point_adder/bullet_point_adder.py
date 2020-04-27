@@ -5,6 +5,8 @@ import pyperclip
 
 text = pyperclip.paste()
 
-#todo - Convert text copied to a wikipedia-style list
+lines = text.split('\n')
+for i in range(len(lines)):
+    lines[i] = '* ' + lines[i]
 
 pyperclip.copy()
