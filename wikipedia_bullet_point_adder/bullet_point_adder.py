@@ -10,4 +10,4 @@ for i in range(len(lines)):
     lines[i] = '* ' + lines[i] # add bullet point to each line
 '\n'.join(lines)  # join the modified lines into a string ready to be copied to the clipboard
 
-pyperclip.copy()
+pyperclip.copy(text)
