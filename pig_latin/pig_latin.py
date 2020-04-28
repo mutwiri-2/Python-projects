@@ -51,4 +51,13 @@ def pig_latin():
 
     VOWELS = ('a', 'e', 'i', 'o', 'u', 'y') # constant to store vowel sounds
 
-    
+    pig_latin_list = [] # list to store the words in Pig Latin language
+    for word in text.split():
+        prefix_non_letters = '' # a string to store non-letter characters before the word
+        while len(word) > 0 and not word[0].isalpha(): 
+            prefix_non_letters += word[0]
+            word = word[1:]
+        if len(word) == 0: # if the whole word is made of non-letters, add it to the pig_latin_list and continue to next word
+            pig_latin_list.append(prefix_non_letters)
+            continue
+        
