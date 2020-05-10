@@ -8,8 +8,8 @@ number_of_questions = 10
 correct_answers = 0
 
 for question_number in range(number_of_questions):
-    num1 = random.randint(0,9)
-    num2 = random.randint(0,9)
+    num1 = random.randint(0,20)
+    num2 = random.randint(0,20)
 
     prompt = f"Question {question_number+1}: {num1} * {num2} = __\n"
 
