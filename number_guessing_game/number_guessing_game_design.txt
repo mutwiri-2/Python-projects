@@ -1,4 +1,4 @@
-Design Problem - number guessing game
+Design Problem statement - number guessing game
 
 Design a game that prompts a user to guess a pre-defined number (secret number)
 which lies within a given range with the following features:
@@ -10,3 +10,5 @@ which lies within a given range with the following features:
    of attempts it took to get the correct answer
 4. If the user runs out of attempts without getting the correct answer, display
    a message to indicate they lost and provide them the correct answer (secret number)
+
+The game will be text-based and only use the standard i/o
