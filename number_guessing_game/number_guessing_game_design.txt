@@ -1,0 +1,12 @@
+Design Problem - number guessing game
+
+Design a game that prompts a user to guess a pre-defined number (secret number)
+which lies within a given range with the following features:
+
+1. gives the user a finite number of chances to guess
+2. provides useful pointers after each unsuccessful guess of whether the user
+  should try a higher or lower value
+3. If the user guesses corectly, display a congratulatory message with the number 
+   of attempts it took to get the correct answer
+4. If the user runs out of attempts without getting the correct answer, display
+   a message to indicate they lost and provide them the correct answer (secret number)
