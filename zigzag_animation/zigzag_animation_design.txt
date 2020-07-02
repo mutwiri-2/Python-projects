@@ -5,4 +5,4 @@ Design a simple animation that prints out a zigzag pattern
 1. use increasing and decreasing whitespaces to push the characters farther or
 closer to the start
 
-The game will be text-based and only use the standard i/o
+The animation will be text-based and only use the standard i/o
