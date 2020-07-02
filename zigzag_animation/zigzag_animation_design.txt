@@ -3,6 +3,6 @@ Design Problem statement - zigzag animation
 Design a simple animation that prints out a zigzag pattern
 
 1. use increasing and decreasing whitespaces to push the characters farther or
-closer to the start
+closer to the start in an alternating pattern
 
 The animation will be text-based and only use the standard i/o
