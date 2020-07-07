@@ -1,5 +1,5 @@
 #! python3
-# piglatin.py - a program to translate English words to pig latin
+# pig_latin.py - a program to translate English words to pig latin
 
 def pig_latin():
     text = input("Enter an English text to translate to Pig Latin:\n")
