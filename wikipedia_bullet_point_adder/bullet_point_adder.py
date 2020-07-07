@@ -12,3 +12,4 @@ for i in range(len(lines)):
 text = '\n'.join(lines)  # join the modified lines into a string
 
 pyperclip.copy(text)
+print("Bullet point list created and copied to clipboard. Paste to see results")
