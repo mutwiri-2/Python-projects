@@ -1,0 +1,13 @@
+Project: Adding Bullets to Wiki Markup Design problem statement
+
+When editing a Wikipedia article, you can create a bulleted list by putting each
+list item on its own line and placing a star in front. But say you have a really
+large list that you want to add bullet points to. Design a short Python script
+that takes a list and places a star in front of every list item
+
+Design
+1. Get text from clipboard - user copies the list and you get that text copied
+from the clipboard 
+2. Add a star and space to the beginning of each line in the text copied from
+clipboard
+3. paste the new text to the clipboard
